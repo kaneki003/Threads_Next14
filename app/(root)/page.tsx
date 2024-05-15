@@ -17,7 +17,7 @@ export default async function Home() {
     <>
       <h1 className="head-text text-left">Home</h1>
       <section className="flex flex-col mt-9 gap-10">
-{/*         {result?.posts.length === 0 ? (
+        {result?.posts.length === 0 ? (
           <p className="no-result">No threads found</p>
         ) : (
           <>
@@ -36,7 +36,7 @@ export default async function Home() {
               />
             ))}
           </>
-        )} */}
+        )}
       </section>
     </>
   );
