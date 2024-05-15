@@ -12,10 +12,10 @@ const nextConfig = {
         "placehold.co",
       ],
     },
-    experimental: {
-      serverComponents: true,
-      serverComponentsExternalPackages: ["mongoose"],
-    },
+    // experimental: {
+    //   serverComponents: true,
+    //   serverComponentsExternalPackages: ["mongoose"],
+    // },
   };
   
   export default nextConfig;
