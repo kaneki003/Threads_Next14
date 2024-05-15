@@ -9,6 +9,7 @@ export default async function Home() {
   if(!user){redirect("/sign-in")};
   
   const result = await fetchPosts(1, 30);
+  if(!result){redirect("/sign-up")};
   
 
   // console.log(result);
